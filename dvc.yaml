@@ -16,7 +16,7 @@ stages:
     - train.epochs
     outs:
     - models/model.h5:
-        cache: false
+        cache: true
     metrics:
     - metrics.json:
         cache: false

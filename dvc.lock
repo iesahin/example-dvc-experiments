@@ -27,11 +27,11 @@ stages:
         train.epochs: 10
     outs:
     - path: logs.csv
-      md5: 45bdcc252183f1524b588efb9ba93f13
-      size: 871
+      md5: ad37d6fd2fdeaec02e035dafde130d32
+      size: 864
     - path: metrics.json
-      md5: 15de2e7c1074a42208805961b0e5b964
-      size: 56
+      md5: 24c5d38a6dca30103ff6d2f822c602a9
+      size: 55
     - path: models/model.h5
-      md5: 98f53587f40875599ddc620a820094f2
+      md5: 55ec7a80d9958963c608b2213622fea9
       size: 8363240
